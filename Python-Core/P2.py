@@ -112,9 +112,36 @@ def fib(n):
         z = x + y
 
 fib(13)
-#Write a function that returns the nth Fibonacci 
-
+#Write a function that returns the nth Fibonacci
+def fibonacci(n):
+    if n<1:
+        print("invalid entry")
+    x=0
+    y=1
+    if n==1:
+        return x
+    if n==2:
+        return y
+    count=2
+    while n>count:
+        z=x+y
+        x=y
+        y=z
+        count+=1
+    return z
+print(fibonacci(10))
 #Write a function that checks whether a number is prime.
+def prime(n):
+    if n<=1:
+        print(f"the number is not prime={n}")
+        return
+    for i in range(2,n):
+        if n%i==0:
+            print(f"the number is not prime={n}")
+            break
+    else:
+        print(f"the number is prime={n}")
+prime(7)
 #Write a function that finds the GCD of two numbers.
 #Write a function that determines whether two strings are anagrams.
 #Write a function that counts vowels in a string.
