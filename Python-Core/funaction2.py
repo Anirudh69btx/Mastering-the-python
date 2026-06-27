@@ -1,5 +1,3 @@
-# Advanced Function Practice
-
 ## Advanced Level
 ### Q1Implement your own version of `max()` using functions.
 ### Q2Write a recursive function to compute power `(x^n)`.
@@ -11,9 +9,6 @@
 ### Q8Write a function that compresses a string using character frequencies.
 ### Q9 Implement binary search as a function.
 ### Q10Write a function that finds the first non-repeating character in a string.
-
----
-
 # Scenario-Based Function Problems
 ### Q11Return a discount price if the total bill exceeds ₹5000; otherwise return the original amount.
 ### Q12Determine whether a user is eligible to vote based on age.
